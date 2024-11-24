@@ -11,7 +11,7 @@ import ELearnProjects from './components/eLearnProjects';
 import SEProjects from './components/SEProjects';
 import SEProjectsList from './components/SEProjectsList';
 import Experiences from './components/Experiences';
-import Location from './components/location';
+import Location from './components/Location';
 import PageNotFound from './components/PageNotFound';
 import cat from '/assets/cat.jpg'
 
