@@ -1,0 +1,24 @@
+.se-projects-main-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title-description {
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 1rem;
+}
+
+@media (max-width: 1200px) and (orientation: portrait) {
+    .se-projects-main-page {
+        display: none;
+    }
+}

@@ -1,0 +1,26 @@
+.location-main-page {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.map-section{
+    margin: 0 4rem;
+    /* border: 2px solid red; */
+}
+
+
+.topic-details {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.map {
+    margin-top: 2rem;
+}
+
+@media (max-width: 1200px) and (orientation: portrait) {
+    .location-main-page {
+        display: none;
+    }
+}

@@ -1,0 +1,363 @@
+.main-page {
+    max-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about-norman {
+    border-radius: 10px;
+    min-width: 25rem;
+    height: auto;
+    margin-left: 5rem;
+    margin: 0 auto;
+    /* border: 2px dotted red; */
+}
+
+.about-norman>img {
+    width: 17rem;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+.about-norman>h2 {
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.about-norman>p {
+    font-size: 1.1rem;
+    color: #FFFFFF;
+}
+
+.contact-links {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 1rem;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: #121212;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    margin-left: -2.1rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.7rem;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.hover-icon {
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.hover-icon:hover {
+    color: white;
+    text-shadow: 0 0 1vw #FBA834;
+}
+
+.selection-page {
+    width: 70%;
+    padding: 1.5rem;
+    /* border: 2px dotted orange; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    max-width: 46rem;
+    /* border: 2px dotted orange; */
+}
+
+.grid-cell {
+    /* border: 0.1rem solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    width: 10rem;
+    /* margin: 0.5vw; */
+    transition: box-shadow 0.3s ease;
+    /* border: 2px dotted white; */
+    font-size: 1.1rem;
+}
+
+.grid-cell.has-route:hover {
+    box-shadow: 0 0 0.4vw 0.3vw #FBA834;
+    transform: scale(1.02);
+}
+
+@media (max-width: 1600px)and (orientation: landscape) {
+    .main-page {
+        gap: 1.9rem;
+    }
+
+    .about-norman {
+        min-width: 20rem;
+        margin-left: 0;
+    }
+
+    .about-norman>img {
+        width: 16rem;
+        margin-top: 2rem;
+    }
+
+    .about-norman>h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-norman>p {
+        font-size: 0.9rem;
+    }
+
+    .fa-linkedin,
+    .fa-github,
+    .fa-envelope {
+        font-size: 1rem;
+    }
+
+
+    .contact-links {
+        margin-top: 1rem;
+    }
+
+    .tooltiptext {
+        font-size: 0.6rem;
+    }
+
+    .thank-you {
+        font-size: 0.6rem;
+    }
+
+    .selection-page {
+        padding: 1rem;
+    }
+
+    .grid-container {
+        gap: 0.5rem;
+    }
+
+    .grid-cell {
+        height: 9rem;
+        width: 9rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1200px)and (orientation: landscape) {
+    .main-page {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .about-norman {
+        width: 50%;
+        height: auto;
+        margin: 2rem auto;
+    }
+
+    .about-norman>img {
+        width: 13rem;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .about-norman>h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-norman>p {
+        font-size: 1rem;
+    }
+
+    .contact-links {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .thank-you {
+        display: none;
+    }
+
+    .selection-page {
+        width: 70%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .grid-cell {
+        height: 10rem;
+        width: 10rem;
+        font-size: 1.2rem;
+    }
+
+    .grid-cell.has-route:hover {
+        box-shadow: 0 0 0.4vw 0.3vw #FBA834;
+        transform: scale(1.02);
+    }
+
+}
+
+@media (max-width: 1200px) and (orientation: portrait) {
+
+    .main-page {
+        display: none;
+    }
+
+    .rotate-message {
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        color: white;
+        margin: 2rem;
+        animation: colorChange 5s infinite;
+    }
+
+    @keyframes colorChange {
+        0% {
+            color: white;
+        }
+
+        50% {
+            color: #F28500;
+        }
+
+        100% {
+            color: white;
+        }
+
+    }
+
+}
+
+@media (max-width: 1050px)and (orientation: landscape) {
+    .about-norman>img {
+        width: 13rem;
+    }
+
+    .about-norman>h2 {
+        font-size: 1.3rem;
+    }
+
+    .about-norman>p {
+        font-size: 0.9rem;
+    }
+
+    .selection-page {
+        width: 68%;
+    }
+
+    .grid-cell {
+        height: 8rem;
+        width: 8rem;
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 850px)and (orientation: landscape) {
+.about-norman>img {
+        width: 10rem;
+    }
+
+    .about-norman>h2 {
+        font-size: 1rem;
+    }
+
+    .about-norman>p {
+        font-size: 0.8rem;
+    }
+
+    .selection-page {
+        width: 70%;
+    }
+
+    .grid-cell {
+        height: 7rem;
+        width: 7rem;
+        font-size: 0.7rem;
+        padding: 0.1rem;
+    }
+}
+
+@media (max-width: 750px)and (orientation: landscape) {
+
+    .selection-page {
+        width: 83%;
+    }
+}
+
+@media (max-width: 700px)and (orientation: landscape) {
+
+    .selection-page {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px)and (orientation: landscape) {
+
+    .selection-page {
+        width: 85%;
+    }
+
+    .grid-cell {
+        height: 6rem;
+        width: 6rem;
+    }
+}
+
+@media (max-width: 600px)and (orientation: landscape) {
+
+    .selection-page {
+        width: 90%;
+    }
+}
+
+@media (max-width: 550px)and (orientation: landscape) {
+
+    .selection-page {
+        width: 85%;
+    }
+
+    .grid-cell {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+@media (max-width: 500px)and (orientation: landscape) {
+
+    .selection-page {
+        width: 93%;
+    }
+}

@@ -1,0 +1,99 @@
+.eLearnDev-main-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.elearning-specialist-section {
+    margin: 0 5rem;
+}
+
+@media (max-width: 1300px) and (orientation: landscape) {
+    .buttons {
+        width: 95%;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .elearning-specialist-section {
+        padding: 0;
+    }
+
+    .norman-interests {
+        width: 60%;
+        padding: 0 4.5rem;
+    }
+
+    .image-container {
+        width: 15rem;
+        height: 12.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .image-container>img {
+        width: 14rem;
+        height: 9rem;
+        margin-top: 0.5rem;
+    }
+
+    .image-container>p {
+        margin-top: 0.3rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 1200px) and (orientation: portrait) {
+    .eLearnDev-main-page {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) and (orientation: landscape) {
+    .buttons {
+        width: 95%;
+    }
+
+    .line {
+        display: none;
+    }
+
+
+    .norman-interests {
+        width: 60%;
+        padding: 0 4.5rem;
+    }
+
+    .image-container {
+        width: 14rem;
+        height: 10.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .image-container>img {
+        width: 13rem;
+        height: 8rem;
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 950px) and (orientation: landscape) {
+    .norman-interests-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .norman-interests {
+        width: 60%;
+        padding: 0 4.5rem;
+    }
+}
+
+@media (max-width: 600px) and (orientation: landscape) {
+    .norman-interests-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

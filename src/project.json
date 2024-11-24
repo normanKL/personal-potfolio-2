@@ -1,0 +1,219 @@
+[
+    {
+        "id": 1007,
+        "type": "coding",
+        "img": "/assets/hugolearn-img.png",
+        "title": "Learning Portal",
+        "date": "Oct 2024",
+        "description": [
+            "🔆 The Learning Portal is one of my full-stack Software Engineering Bootcamp projects.",
+            "🔆 It is a comprehensive full-stack application that enables users to sign up and log in, allowing them to explore a diverse range of learning programs.",
+            "🔆 Users can easily browse various educational offerings, and add their preferred programs to their profiles for quick access.",
+            "🔆 This project was developed in just one week, showcasing a streamlined process that involved both frontend and backend development."
+        ],
+        "note": [
+            "🔆 Profile Display and Navigation: View your own profile, educational offerings, and all authors, with the ability to navigate to program pages and authors' profiles for more detailed information.",
+            "🔆 Restricted Profile Editing: Only admins can edit program details and author information.",
+            "🔆 Authentication: Log-in and sign-up functionality is available for users.",
+            "🔆 IT Support Access: A dedicated button allows users to email IT support directly for assistance."
+        ],
+        "devicon": [
+            "devicon-visualstudio-plain",
+            "devicon-git-plain",
+            "devicon-github-plain",
+            "devicon-html5-plain",
+            "devicon-bulma-plain",
+            "devicon-typescript-plain",
+            "devicon-python-plain",
+            "devicon-react-original",
+            "devicon-postman-plain",
+            "devicon-postgresql-plain",
+            "devicon-heroku-plain",
+            "devicon-netlify-plain",
+            "devicon-trello-plain"
+        ],
+        "live": "https://lms-project-4-client.netlify.app/",
+        "ReadMe": "https://github.com/normanKL/LMS-Project-4-Client"
+    },
+    {
+        "id": 1006,
+        "type": "coding",
+        "img": "/assets/licensingportal-img.png",
+        "title": "Licensing Portal",
+        "date": "Sep 2024",
+        "description": [
+            "🔆 The Licensing Portal is one of my full-stack Software Engineering Bootcamp projects.",
+            "🔆 It is a full-stack MERN application designed to help the Licensing Team of a Financial Institution manage the licensing of their sales team.",
+            "🔆 It ensures that sales representatives are properly authorized to sell life insurance and takaful products to clients.",
+            "🔆 This project was developed in just one week, showcasing a streamlined process that involved both frontend and backend development."
+        ],
+        "note": [
+            "🔆 Profile Display and Navigation: View all user and specialist profiles, with the ability to navigate to individual profile pages for detailed information.",
+            "🔆 Real-time Search: Quickly search through specialist profiles by name, region, or branch.",
+            "🔆 Restricted Profile Editing: Users can edit specialist profiles, but only for those within their assigned region.",
+            "🔆 Authentication: Log in and sign up functionality is available for users.",
+            "🔆 IT Support Access: A dedicated button allows users to email IT support directly for assistance."
+        ],
+        "devicon": [
+            "devicon-visualstudio-plain",
+            "devicon-git-plain",
+            "devicon-github-plain",
+            "devicon-html5-plain",
+            "devicon-bulma-plain",
+            "devicon-typescript-plain",
+            "devicon-react-original",
+            "devicon-postman-plain",
+            "devicon-django-plain",
+            "devicon-mongodb-plain",
+            "devicon-netlify-plain",
+            "devicon-trello-plain"
+        ],
+        "live": "https://licensing-portal-frontend.netlify.app/",
+        "ReadMe": "https://github.com/normanKL/project-3-licensing-portal-FE"
+    },
+    {
+        "id": 1005,
+        "type": "coding",
+        "img": "/assets/mealgenie-img.png",
+        "title": "Recipe Finder",
+        "date": "Sep 2024",
+        "description": [
+            "🔆 The Recipe Finder is one of my Software Engineering Bootcamp group projects.",
+            "🔆 Designed to utilize an external API, the app generates a diverse range of meal recipe data, allowing users to search recipes by name or explore randomized recommendations.",
+            "🔆 Users can also save recipes they like to a personal favorites list, which is stored in local storage for convenient access anytime.",
+            "🔆 This project was developed as a collaborative project by a team of two in just 48 hours."
+        ],
+        "note": [
+            "🔆 Access a variety of recipes from different countries, sourced through an external API, bringing global flavors directly to users.",
+            "🔆 Users can save their favorite recipes to a profile, with options to easily add or remove recipes from the list.",
+            "🔆 Where available, recipe pages feature embedded YouTube videos, allowing users to watch preparation demos and follow along.",
+            "🔆 Search recipes by specific ingredients, making it easy for users to find dishes based on what they have on hand."
+        ],
+        "devicon": [
+            "devicon-visualstudio-plain",
+            "devicon-git-plain",
+            "devicon-github-plain",
+            "devicon-html5-plain",
+            "devicon-css3-plain",
+            "devicon-javascript-plain",
+            "devicon-nodejs-plain",
+            "devicon-postman-plain",
+            "devicon-react-original",
+            "devicon-netlify-plain",
+            "devicon-trello-plain"
+        ],
+        "live": "https://meal-genie-project-ga.netlify.app/",
+        "ReadMe": "https://github.com/normanKL/Meal-Genie-Project-Norman"
+    },
+    {
+        "id": 1004,
+        "type": "coding",
+        "img": "/assets/ultimatetictactoe-img.png",
+        "title": "Ultimate Tic-Tac-Toe",
+        "date": "Aug 2024",
+        "description": [
+            "🔆 The Ultimate Tic-Tac-Toe is one of my Software Engineering Bootcamp projects.",
+            "🔆 This project is a JavaScript-based game designed around the concept of Ultimate Tic Tac Toe, utilizing a grid layout to enhance gameplay.",
+            "🔆 The game features nine interconnected tic-tac-toe boards, where players must not only focus on winning their own individual board but also strategize to control the larger grid. Each move on one board influences the available moves on the others, requiring players to think several steps ahead to outmaneuver their opponent and secure victory."
+        ],
+        "note": [
+            "🔆 Players can easily start a new game or reset the current game at any time, allowing for continuous play without interruptions.",
+            "🔆 Players compete against a computer opponent, providing an engaging challenge that allows them to test their skills and strategies.",
+            "🔆 The game features a sleek black background, with bright-colored grids and buttons that enhance contrast, making gameplay visually appealing and easy to navigate."
+        ],
+        "devicon": [
+            "devicon-visualstudio-plain",
+            "devicon-git-plain",
+            "devicon-github-plain",
+            "devicon-html5-plain",
+            "devicon-css3-plain",
+            "devicon-javascript-plain",
+            "devicon-nodejs-plain"
+        ],
+        "live": "https://normankl.github.io/ultimate-tic-tac-toe/",
+        "ReadMe": "https://github.com/normanKL/ultimate-tic-tac-toe"
+    },
+    {
+        "id": 1003,
+        "type": "coding",
+        "img": "/assets/tictactoe-img.png",
+        "title": "Tic-Tac-Toe",
+        "date": "Aug 2024",
+        "description": [
+            "🔆 The Tic Tac Toe project is a JavaScript-based game developed to enhance my JavaScript skills and understanding of grid layouts.",
+            "🔆 This design is the original concept of Tic Tac Toe, which I later adapted for the Ultimate Tic Tac Toe version, offering a familiar yet engaging experience.",
+            "🔆 The game features sound effects that play when a player clicks on one of the boxes, adding an interactive element to the gameplay."
+        ],
+        "note": [
+            "🔆 Once players click Start, they will engage in a series of nine consecutive Tic Tac Toe games, maintaining continuous play and strategic thinking throughout. ",
+            "🔆 Players compete against a computer opponent, and the player with the higher score after the nine games is declared the winner."
+        ],
+        "devicon": [
+            "devicon-visualstudio-plain",
+            "devicon-git-plain",
+            "devicon-github-plain",
+            "devicon-html5-plain",
+            "devicon-css3-plain",
+            "devicon-javascript-plain",
+            "devicon-nodejs-plain"
+        ],
+        "live": "https://normankl.github.io/hugo-tic-tac-toe/",
+        "ReadMe": ""
+    },
+    {
+        "id": 1002,
+        "type": "coding",
+        "img": "/assets/countryfinder-img.png",
+        "title": "Country Finder",
+        "date": "Aug 2024",
+        "description": [
+            "🔆 This Country Finder app is a project I developed to enhance my understanding of using external APIs with JavaScript. Through this project, I learned how to effectively make API requests, handle responses, and display data dynamically in a user-friendly interface.",
+            "🔆 Included in the results is a direct link to Google for the country the user searches for. This feature allows users to quickly access additional information and resources about the country, enhancing their overall experience.",
+            "🔆 The design is simple and intuitive, focusing primarily on the search functionality.",
+            "🔆 This project marks a significant milestone as it is the first one I deployed using Netlify. Deploying on Netlify provided me with valuable experience in managing web hosting and understanding deployment processes."
+        ],
+        "note": [
+            "🔆 Users can search for any country and retrieve essential information in real-time, showcasing the functionality of the app."
+        ],
+        "devicon": [
+            "devicon-visualstudio-plain",
+            "devicon-git-plain",
+            "devicon-github-plain",
+            "devicon-html5-plain",
+            "devicon-css3-plain",
+            "devicon-javascript-plain",
+            "devicon-nodejs-plain",
+            "devicon-postman-plain",
+            "devicon-netlify-plain"
+        ],
+        "live": "https://heroic-genie-af1afe.netlify.app/",
+        "ReadMe": ""
+    },
+    {
+        "id": 1001,
+        "type": "coding",
+        "img": "/assets/adoption-center.png",
+        "title": "Animal Shelter Adoption Center",
+        "date": "Jan 2024",
+        "description": [
+            "🔆 The Animal Shelter Adoption Center is my final project for the Frontend Development Bootcamp, marking the culmination of my learning journey in this intensive course.",
+            "🔆 As this bootcamp was my first formal experience with programming, I focused on creating a straightforward, intuitive design. I used a JSON file as the project’s API to simplify data handling, allowing users to seamlessly browse information about the shelter and available pets."
+        ],
+        "note": [
+            "🔆 Users can view the adoption center’s profile to learn about the shelter’s mission, explore its adoption history, and see a donation button (intended only for display without actual functionality)",
+            "🔆 Users can explore profiles of all available pets and click on images for more details."
+        ],
+        "devicon": [
+            "devicon-visualstudio-plain",
+            "devicon-git-plain",
+            "devicon-github-plain",
+            "devicon-html5-plain",
+            "devicon-css3-plain",
+            "devicon-javascript-plain",
+            "devicon-nodejs-plain",
+            "devicon-netlify-plain"
+        ],
+        "live": "https://animal-adoption-centre.netlify.app/",
+        "ReadMe": ""
+    }
+]

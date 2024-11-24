@@ -1,0 +1,53 @@
+.se-journey-main-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.se-journey-section {
+    margin: 0 5rem;
+}
+
+.programming {
+    margin-top: 3rem;
+    border-radius: 10px;
+    background-color: #4682B4;
+    border: 0.2rem solid white;
+
+}
+
+h4 {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    padding-bottom: 1.8rem;
+    gap: 1.6rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    height: 2.6rem;
+    width: 2.6rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin: 0;
+}
+
+.icon-text {
+    margin: 0;
+    padding-top: 0.5rem;
+    font-size: 0.6rem;
+}
+
+@media (max-width: 1200px) and (orientation: portrait) {
+    .se-journey-main-page {
+        display: none;
+    }
+}
