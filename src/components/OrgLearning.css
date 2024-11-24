@@ -7,10 +7,17 @@
     margin: 0 5rem;
 }
 
-.org-learning-specialist-section>p {
+.org-learning-specialist-section {
     font-size: 1rem;
     text-align: left;
 }
+
+.org-learning-specialist-section>p {
+    margin: 0.1rem;
+    padding-bottom: 0.5rem;
+}
+
+
 
 @media (max-width: 1300px) and (orientation: landscape) {
     .buttons {

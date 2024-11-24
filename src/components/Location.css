@@ -10,9 +10,14 @@
 }
 
 
-.topic-details {
+.location-section {
     font-size: 1rem;
     text-align: left;
+}
+
+.location-section>p {
+    margin: 0.1rem;
+    padding-bottom: 0.5rem;
 }
 
 .map {
