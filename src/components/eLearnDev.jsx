@@ -37,6 +37,7 @@ function ELearnDev() {
 
                 <h1>e-Learning Development</h1>
 
+
                 <div className="elearning-specialist-section">
                     <p>I have spent the past four years, since 2019, venturing into e-learning development. As a project manager, I oversee <strong>group mandatory e-learning programs</strong> for over 70 countries, collaborating closely with vendors and subject matter experts to ensure content relevance and quality.
                         Additionally, I <strong>develop country-specific e-learning modules internally</strong> in our learning studio using Articulate 360, working alongside the Learning Operations teams to ensure smooth deployment and execution across regions. </p>

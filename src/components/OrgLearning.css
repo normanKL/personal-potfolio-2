@@ -4,12 +4,9 @@
 }
 
 .org-learning-specialist-section {
-    padding: 0 5rem;
-}
-
-.org-learning-specialist-section {
     font-size: 1rem;
     text-align: left;
+    margin: 0 5rem;
 }
 
 .org-learning-specialist-section>p {
