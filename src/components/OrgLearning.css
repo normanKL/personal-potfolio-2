@@ -81,10 +81,6 @@
         margin-top: 0.5rem;
     }
 
-    .org-learning-specialist-section>p {
-        font-size: 0.8rem;
-    }
-
 }
 
 @media (max-width: 950px) and (orientation: landscape) {
