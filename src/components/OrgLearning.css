@@ -7,7 +7,7 @@
     margin: 0 5rem;
 }
 
-.topic-details {
+.org-learning-specialist-section>p {
     font-size: 1rem;
     text-align: left;
 }
@@ -64,7 +64,6 @@
         display: none;
     }
 
-
     .norman-interests {
         width: 60%;
         padding: 0 4.5rem;
@@ -81,6 +80,11 @@
         height: 8rem;
         margin-top: 0.5rem;
     }
+
+    .org-learning-specialist-section>p {
+        font-size: 0.8rem;
+    }
+
 }
 
 @media (max-width: 950px) and (orientation: landscape) {

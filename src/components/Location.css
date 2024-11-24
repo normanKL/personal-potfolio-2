@@ -4,7 +4,7 @@
     margin-bottom: 3rem;
 }
 
-.map-section{
+.map-section {
     margin: 0 4rem;
     /* border: 2px solid red; */
 }
@@ -22,5 +22,11 @@
 @media (max-width: 1200px) and (orientation: portrait) {
     .location-main-page {
         display: none;
+    }
+}
+
+@media (max-width: 1100px) and (orientation: landscape) {
+    .topic-details {
+        font-size: 0.8rem;
     }
 }

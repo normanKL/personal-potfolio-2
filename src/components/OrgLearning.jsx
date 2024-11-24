@@ -38,9 +38,9 @@ function OrgLearning() {
                 <h1>Organization Learning</h1>
 
                 <div className="org-learning-specialist-section">
-                    <p className='topic-details'>I’m experienced in <strong>Instructor-Led Training (ILT) facilitation</strong> for financial products such as life insurance, banking, and soft skills.
+                    <p>I’m experienced in <strong>Instructor-Led Training (ILT) facilitation</strong> for financial products such as life insurance, banking, and soft skills.
                         Previously, I managed various <strong>learning and regulatory requirements</strong>, including licensing, product certification, internal and external audits, as well as compliance with the Human Resources Development Corp (HRDC) and Staff Training Fund (STF).</p>
-                    <p className='topic-details'>My top 3 skills in Organizational Learning are:</p>
+                    <p>My top 3 skills in Organizational Learning are:</p>
                 </div>
 
                 <div className="norman-interests">

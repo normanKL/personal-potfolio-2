@@ -7,6 +7,11 @@
     margin: 0 5rem;
 }
 
+.elearning-specialist-section>p {
+    font-size: 1rem;
+    text-align: left;
+}
+
 @media (max-width: 1300px) and (orientation: landscape) {
     .buttons {
         width: 95%;
@@ -76,6 +81,11 @@
         height: 8rem;
         margin-top: 0.5rem;
     }
+
+    .elearning-specialist-section>p{
+        font-size: 0.8rem;
+    }
+
 }
 
 @media (max-width: 950px) and (orientation: landscape) {
