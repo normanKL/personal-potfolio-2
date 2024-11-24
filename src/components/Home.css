@@ -355,9 +355,3 @@
     }
 }
 
-@media (max-width: 500px)and (orientation: landscape) {
-
-    .selection-page {
-        width: 93%;
-    }
-}
