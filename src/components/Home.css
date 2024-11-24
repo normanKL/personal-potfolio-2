@@ -169,65 +169,63 @@
     }
 }
 
-/* @media (max-width: 1200px)and (orientation: landscape) {
+@media (max-width: 1200px)and (orientation: landscape) {
     .main-page {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 1rem;
+        gap: 1.5rem;
     }
 
     .about-norman {
-        width: 50%;
-        height: auto;
-        margin: 2rem auto;
+        min-width: 20rem;
+        margin-left: 0;
     }
 
     .about-norman>img {
-        width: 13rem;
-        height: auto;
-        border-radius: 50%;
+        width: 14rem;
+        margin-top: 2rem;
     }
 
     .about-norman>h2 {
-        font-size: 1.5rem;
-    }
-
-    .about-norman>p {
-        font-size: 1rem;
-    }
-
-    .contact-links {
-        width: 90%;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .thank-you {
-        display: none;
-    }
-
-    .selection-page {
-        width: 70%;
-    }
-
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.4rem;
-    }
-
-    .grid-cell {
-        height: 10rem;
-        width: 10rem;
         font-size: 1.2rem;
     }
 
-    .grid-cell.has-route:hover {
-        box-shadow: 0 0 0.4vw 0.3vw #FBA834;
-        transform: scale(1.02);
+    .about-norman>p {
+        font-size: 0.8rem;
+        padding: 0 1rem;
     }
 
-} */
+    .fa-linkedin,
+    .fa-github,
+    .fa-envelope {
+        font-size: 0.8rem;
+    }
+
+    .contact-links {
+        margin-top: 1rem;
+    }
+
+    .tooltiptext {
+        font-size: 0.6rem;
+    }
+
+    .thank-you {
+        font-size: 0.6rem;
+        padding: 0 1rem;
+    }
+
+    .selection-page {
+        padding: 1rem;
+    }
+
+    .grid-container {
+        gap: 0.5rem;
+    }
+
+    .grid-cell {
+        height: 8rem;
+        width: 8rem;
+        font-size: 1rem;
+    }
+}
 
 @media (max-width: 1200px) and (orientation: portrait) {
 
@@ -262,6 +260,16 @@
 }
 
 @media (max-width: 1050px)and (orientation: landscape) {
+    .main-page {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .thank-you {
+        display: none;
+    }
+
     .about-norman>img {
         width: 13rem;
     }
