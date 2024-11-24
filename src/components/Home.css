@@ -169,7 +169,7 @@
     }
 }
 
-@media (max-width: 1200px)and (orientation: landscape) {
+/* @media (max-width: 1200px)and (orientation: landscape) {
     .main-page {
         display: flex;
         flex-direction: column;
@@ -213,6 +213,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        gap: 0.4rem;
     }
 
     .grid-cell {
@@ -226,7 +227,7 @@
         transform: scale(1.02);
     }
 
-}
+} */
 
 @media (max-width: 1200px) and (orientation: portrait) {
 
@@ -281,6 +282,12 @@
         height: 8.5rem;
         width: 8.5rem;
         font-size: 1rem;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.4rem;
     }
 
 }
