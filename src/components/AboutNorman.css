@@ -22,29 +22,21 @@
     flex-direction: column;
 }
 
-.about-norman-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 5rem;
-    width: 85%;
+.about-norman-section-text {
+    font-size: 1rem;
+    text-align: left;
+    margin: 0 5rem;
+}
+
+.about-norman-section-text>p {
+    margin: 0.1rem;
+    padding-bottom: 0.5rem;
 }
 
 .about-norman-section>img {
     width: 18rem;
     height: auto;
     border-radius: 10%;
-}
-
-.about-norman-section-text {
-    font-size: 1rem;
-    text-align: left;
-    /* border: 2px dotted red; */
-}
-
-.about-norman-section-text>p {
-    margin: 0.1rem;
-    padding-bottom: 0.5rem;
 }
 
 .norman-interests {
@@ -97,9 +89,15 @@
         display: none;
     }
 
-    .about-norman-section {
-        width: 85%;
-        padding: 0 4rem;
+    .about-norman-section-text {
+        font-size: 1rem;
+        text-align: left;
+        margin: 0 5rem;
+    }
+
+    .about-norman-section-text>p {
+        margin: 0.1rem;
+        padding-bottom: 0.5rem;
     }
 
     .norman-interests {
@@ -142,10 +140,6 @@
         display: none;
     }
 
-    .about-norman-section {
-        width: 90%;
-        padding: 0 3rem;
-    }
 
     .norman-interests {
         width: 60%;
@@ -169,11 +163,6 @@
     .norman-interests-images {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    }
-
-    .about-norman-section {
-        width: 90%;
-        padding: 0 2rem;
     }
 
     .norman-interests {

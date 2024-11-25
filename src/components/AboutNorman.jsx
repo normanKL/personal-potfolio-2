@@ -36,9 +36,7 @@ function AboutNorman() {
 
                 <h1>About Me</h1>
 
-                <div className="about-norman-section">
-                    {/* <img src="https://media.licdn.com/dms/image/v2/C5603AQFeqZBk1gqZPA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1627719716013?e=1735171200&v=beta&t=Wjj-k2Hjq9tR_3RfcgH6N7js-n-J9QOl5euuvef_rRQ" alt="Norman" /> */}
-
+            
                     <div className="about-norman-section-text">
                         <p>With a diverse professional background, I’ve gained experience as a <strong>Learning Specialist</strong> in financial products, including life insurance and banking.
                             At Standard Chartered Bank, I served as an <strong>Lead Practitioner, e-Learning Development</strong>, where I specialized in creating compliance and regulatory training programs. </p>
@@ -46,7 +44,6 @@ function AboutNorman() {
                         <p>In my free time, I enjoy:</p>
                     </div>
 
-                </div>
 
                 <div className="norman-interests">
                     {/* <h3>My Interests</h3> */}
