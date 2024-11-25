@@ -293,7 +293,7 @@
     }
 
     .selection-page {
-        width: 60%;
+        max-width: 60%;
         margin-right: 1rem;
     }
 
@@ -349,7 +349,8 @@
     }
 
     .selection-page {
-        width: 77%;
+        /* max-width: 70%; */
+        margin-right:10rem;
     }
 
     .grid-cell {
@@ -366,10 +367,6 @@
         margin-left: 10rem;
     }
 
-    .selection-page {
-        width: 85%;
-    }
-
     .grid-cell {
         height: 8.3rem;
         width: 8.3rem;
@@ -382,10 +379,6 @@
 
     .about-norman {
         margin-left: 8rem;
-    }
-
-    .selection-page {
-        width: 85%;
     }
 
     .grid-cell {
@@ -402,7 +395,7 @@
     }
 
     .selection-page {
-        width: 80%;
+        margin-right: 7rem;
     }
 
     .grid-cell {
@@ -417,7 +410,7 @@
         }
 
     .selection-page {
-        width: 85%;
+        margin-right: 10rem;
     }
 }
 
@@ -427,7 +420,7 @@
     }
 
     .selection-page {
-        width: 85%;
+        margin-right:10rem;
     }
 
     .grid-cell {
@@ -442,7 +435,7 @@
     }
 
     .selection-page {
-        width: 75%;
+        margin-right: 5rem;
     }
 
     .grid-cell {
