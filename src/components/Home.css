@@ -177,7 +177,7 @@
     .about-norman {
         min-width: 22rem;
         margin-left: 1.5rem;
-       
+
     }
 
     .about-norman>img {
@@ -203,14 +203,14 @@
         font-size: 0.6rem;
     }
 
-    hr{
+    hr {
         display: none;
     }
 
     .thank-you {
         font-size: 0.6rem;
         padding: 0 2rem;
-        display:none;
+        display: none;
     }
 
     .selection-page {
@@ -268,7 +268,7 @@
     .about-norman {
         margin-left: 1rem;
         margin-top: 0;
-        width:20%;
+        width: 20%;
     }
 
     .about-norman>img {
@@ -298,8 +298,8 @@
     }
 
     .grid-cell {
-        height: 6.5rem;
-        width: 6.5rem;
+        height: 7rem;
+        width: 7rem;
         font-size: 0.8rem;
     }
 
@@ -311,7 +311,7 @@
 
 }
 
-@media (max-width: 900px)and (orientation: landscape) {
+@media (max-width: 950px)and (orientation: landscape) {
     .main-page {
         display: flex;
         flex-direction: column;
@@ -321,7 +321,7 @@
         /* border: 2px dotted red; */
     }
 
-    hr{
+    hr {
         display: block;
     }
 
@@ -349,12 +349,12 @@
     }
 
     .selection-page {
-        width: 70%;
+        width: 77%;
     }
 
     .grid-cell {
-        height: 8rem;
-        width: 8rem;
+        height: 8.5rem;
+        width: 8.5rem;
         font-size: 0.7rem;
         padding: 0.1rem;
     }
@@ -362,19 +362,27 @@
 
 @media (max-width: 850px)and (orientation: landscape) {
 
+    .about-norman {
+        margin-left: 10rem;
+    }
+
     .selection-page {
-        width: 75%;
+        width: 85%;
     }
 
     .grid-cell {
-        height: 8rem;
-        width: 8rem;
+        height: 8.3rem;
+        width: 8.3rem;
         font-size: 0.7rem;
         padding: 0.1rem;
     }
 }
 
 @media (max-width: 800px)and (orientation: landscape) {
+
+    .about-norman {
+        margin-left: 8rem;
+    }
 
     .selection-page {
         width: 85%;
@@ -390,11 +398,11 @@
 
 @media (max-width: 750px)and (orientation: landscape) {
     .about-norman {
-        margin-left: 8.5rem;
+        margin-left: 8rem;
     }
 
     .selection-page {
-        width: 75%;
+        width: 80%;
     }
 
     .grid-cell {
@@ -404,13 +412,16 @@
 }
 
 @media (max-width: 700px)and (orientation: landscape) {
+    .about-norman {
+            margin-left: 6rem;
+        }
 
     .selection-page {
         width: 85%;
     }
 }
 
-@media (max-width: 600px)and (orientation: landscape) {
+@media (max-width: 650px)and (orientation: landscape) {
     .about-norman {
         margin-left: 5rem;
     }
@@ -420,22 +431,22 @@
     }
 
     .grid-cell {
-        height: 6rem;
-        width: 6rem;
+        height: 6.5rem;
+        width: 6.5rem;
     }
 }
 
-@media (max-width: 500px)and (orientation: landscape) {
+@media (max-width: 600px)and (orientation: landscape) {
     .about-norman {
-        margin-left: 2rem;
+        margin-left: 4rem;
     }
 
     .selection-page {
-        width: 90%;
+        width: 75%;
     }
 
     .grid-cell {
-        height: 5rem;
-        width: 5rem;
+        height: 5.5rem;
+        width: 5.5rem;
     }
 }
