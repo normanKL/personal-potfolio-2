@@ -99,21 +99,21 @@ function Home() {
 
                         <div className="tooltip">
                             <a href="https://www.linkedin.com/in/norman-cheahhy/" target="_blank" rel="noopener noreferrer">
-                                <i className="fab fa-linkedin hover-icon" style={{ fontSize: '2rem', color: 'white' }}></i>
+                                <i className="fab fa-linkedin hover-icon" style={{ fontSize: '1.5rem', color: 'white' }}></i>
                             </a>
                             <span className="tooltiptext">LinkedIn Profile</span>
                         </div>
 
                         <div className="tooltip">
                             <a href="https://github.com/normanKL" target="_blank" rel="noopener noreferrer">
-                                <i className="fab fa-github hover-icon" style={{ fontSize: '2rem', color: 'white' }}></i>
+                                <i className="fab fa-github hover-icon" style={{ fontSize: '1.5rem', color: 'white' }}></i>
                             </a>
                             <span className="tooltiptext">GitHub Profile</span>
                         </div>
 
                         <div className="tooltip">
                             <a href="mailto:hugo.cheah@yahoo.com" target="_blank" rel="noopener noreferrer">
-                                <i className="fa-regular fa-envelope hover-icon" style={{ fontSize: '2rem', color: 'white' }}></i>
+                                <i className="fa-regular fa-envelope hover-icon" style={{ fontSize: '1.5rem', color: 'white' }}></i>
                             </a>
                             <span className="tooltiptext">Email Me</span>
                         </div>

@@ -39,7 +39,6 @@
 .about-norman-section-text {
     font-size: 1rem;
     text-align: left;
-    padding: 0 5rem;
     /* border: 2px dotted red; */
 }
 
@@ -100,12 +99,13 @@
 
     .about-norman-section {
         width: 85%;
-        padding: 0 3.5rem;
+        padding: 0 4rem;
     }
 
     .norman-interests {
         width: 60%;
         padding: 0 3.5rem;
+        margin: 0;
     }
 
     .image-container {

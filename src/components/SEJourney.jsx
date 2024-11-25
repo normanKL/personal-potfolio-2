@@ -39,8 +39,8 @@ function SEJourney() {
                 <h1>Software Engineering Journey</h1>
 
                 <div className="se-journey-section">
-                    <p>I attended the General Assembly Software Engineering Bootcamp from July to October 2024 to dive into programming, strengthen my skills, and expand my expertise, especially in ways that can elevate my work in e-learning development. My decision to join the Bootcamp was rooted in my commitment to continuous learning and self-improvement.
-                        I believe that by upgrading my skills, I can unlock new opportunities, boost my creativity, and foster innovation in both e-learning and other fields.</p>
+                    <p className='section-details'>I attended the General Assembly Software Engineering Bootcamp from July to October 2024 to dive into programming, strengthen my skills, and expand my expertise, especially in ways that can elevate my work in e-learning development. My decision to join the Bootcamp was rooted in my commitment to <strong>continuous learning</strong> and self-improvement.
+                        I believe that by <strong>upgrading my skills</strong>, I can unlock new opportunities, boost my creativity, and foster innovation in both e-learning and other fields.</p>
 
                     <div className="programming">
                         <h4>My Skills</h4>

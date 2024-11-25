@@ -5,11 +5,11 @@
 
 .se-journey-section {
     padding: 0 5rem;
-    font-size: 1rem;
-    text-align: left;
 }
 
-.se-journey-section>p {
+.section-details {
+    font-size: 1rem;
+    text-align: left;
     margin: 0.1rem;
     padding-bottom: 0.5rem;
 }
@@ -53,10 +53,6 @@ h4 {
     font-size: 0.6rem;
 }
 
-.se-journey-section>p {
-    font-size: 1rem;
-    text-align: left;
-}
 
 @media (max-width: 1200px) and (orientation: portrait) {
     .se-journey-main-page {
