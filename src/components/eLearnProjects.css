@@ -23,7 +23,7 @@
     border-radius: 10px;
     background-color: #2F539B;
     width: 14.8rem;
-    height: 22rem;
+    height: 20rem;
     padding: 0.5rem 1.5rem;
     text-align: left;
 }
@@ -61,7 +61,7 @@
 
     .project-content {
         width: 14rem;
-        height: 22rem;
+        height: 20rem;
         padding: 0.5rem 1.5rem;
         text-align: left;
     }
