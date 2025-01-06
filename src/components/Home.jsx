@@ -91,7 +91,7 @@ function Home() {
         <>
             <div className="main-page">
                 <div className="about-norman">
-                    <img src="https://media.licdn.com/dms/image/v2/C5603AQFeqZBk1gqZPA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1627719716013?e=1741824000&v=beta&t=j040U2VmjkzMxm7tHAuPJqWweQms3vAbcSmmcPpjbFY" alt="Norman" />
+                    <img src="/assets/norman1.png" alt="Norman" />
                     <h2>Norman Cheah</h2>
                     <p>A learning specialist passionate about e-learning and digital development.</p>
 
