@@ -91,7 +91,7 @@ function Home() {
         <>
             <div className="main-page">
                 <div className="about-norman">
-                    <img src="https://media.licdn.com/dms/image/v2/C5603AQFeqZBk1gqZPA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1627719716013?e=1735171200&v=beta&t=Wjj-k2Hjq9tR_3RfcgH6N7js-n-J9QOl5euuvef_rRQ" alt="Norman" />
+                    <img src="https://media.licdn.com/dms/image/v2/C5603AQFeqZBk1gqZPA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1627719716013?e=1741824000&v=beta&t=j040U2VmjkzMxm7tHAuPJqWweQms3vAbcSmmcPpjbFY" alt="Norman" />
                     <h2>Norman Cheah</h2>
                     <p>A learning specialist passionate about e-learning and digital development.</p>
 
