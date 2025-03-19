@@ -17,7 +17,7 @@
 }
 
 .about-norman>img {
-    width: 13rem;
+    width: 14rem;
     height: auto;
     margin-top: 2rem;
     border-radius: 50%;
@@ -123,7 +123,7 @@
     }
 
     .about-norman>img {
-        width: 16rem;
+        width: 13rem;
         margin-top: 1rem;
     }
 
@@ -181,8 +181,8 @@
     }
 
     .about-norman>img {
-        width: 14rem;
-        margin-top: 2rem;
+        width: 12rem;
+        margin-top: 1rem;
     }
 
     .about-norman>h2 {
