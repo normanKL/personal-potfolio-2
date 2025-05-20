@@ -91,7 +91,7 @@ function Home() {
 
  
         useEffect(() => {
-            fetch('https://counterapi.dev/api/v1/hit/norman-portfolio/home')
+            fetch('https://counterapi.dev/api/v1/hit/norman-portfolio/home/up')
                 .then(res => {
                     if (!res.ok) throw new Error('Network response was not ok');
                     return res.json();
@@ -142,9 +142,9 @@ function Home() {
                         Feel free to connect with me if you have any opportunities or questions!
                     </p>
 
-                    {/* <p style={{ color: '#D3D3D3', fontStyle: 'italic', fontSize: '13px' }}>
+                    <p style={{ color: '#D3D3D3', fontStyle: 'italic', fontSize: '13px' }}>
                         {views !== null ? `This page has been viewed ${views} times.` : 'Loading view count...'}
-                    </p> */}
+                    </p>
 
                 </div>
 
