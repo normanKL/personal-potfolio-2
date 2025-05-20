@@ -326,7 +326,7 @@
     }
 
     hr {
-        display: block;
+        display: none;
     }
 
     .thank-you {
@@ -355,6 +355,7 @@
     .selection-page {
         /* max-width: 70%; */
         margin-right:10rem;
+        margin-top: 1rem;
     }
 
     .grid-cell {
