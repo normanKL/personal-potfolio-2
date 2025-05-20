@@ -142,9 +142,9 @@ function Home() {
                         Feel free to connect with me if you have any opportunities or questions!
                     </p>
 
-                    <p style={{ color: '#FBA834', fontStyle: 'italic' }}>
+                    {/* <p style={{ color: '#D3D3D3', fontStyle: 'italic', fontSize: '13px' }}>
                         {views !== null ? `This page has been viewed ${views} times.` : 'Loading view count...'}
-                    </p>
+                    </p> */}
 
                 </div>
 
