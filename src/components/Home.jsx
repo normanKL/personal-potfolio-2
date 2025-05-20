@@ -142,7 +142,9 @@ function Home() {
                         Feel free to connect with me if you have any opportunities or questions!
                     </p>
 
-                    <p style={{ color: '#D3D3D3', fontStyle: 'italic', fontSize: '13px' }}>
+                    <hr style={{ marginTop: '10px', width: '90%' }} />
+
+                    <p className='view-count' style={{ color: '#D3D3D3', fontStyle: 'italic', fontSize: '13px' }}>
                         {views !== null ? `This page has been viewed ${views} times.` : 'Loading view count...'}
                     </p>
 

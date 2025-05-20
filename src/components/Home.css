@@ -207,6 +207,10 @@
         display: none;
     }
 
+    .view-count {
+        display: none;
+    }
+
     .thank-you {
         font-size: 0.6rem;
         padding: 0 2rem;
