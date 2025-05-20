@@ -17,6 +17,7 @@ function AboutNorman() {
         navigate("/org-learning")
     }
 
+
     return (
         <>
             <div className="about-norman-main-page">

@@ -1,6 +1,7 @@
 import './Home.css';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 import 'devicon/devicon.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -11,6 +12,7 @@ function Home() {
     const width = 4;
     const grid = width * width;
     const navigate = useNavigate();
+    const [views, setViews] = useState(null);
 
     const routeConfig = {
         0: "/about-norman",
@@ -87,6 +89,13 @@ function Home() {
         ));
     }
 
+    useEffect(() => {
+        fetch('https://counterapi.dev/api/v1/hit/norman-portfolio/about-norman')
+            .then(res => res.json())
+            .then(data => setViews(data.count))
+            .catch(err => console.error('Failed to fetch view count', err));
+    }, []);
+
     return (
         <>
             <div className="main-page">
@@ -126,6 +135,10 @@ function Home() {
                     </p>
                     <p className='thank-you' style={{ fontSize: '0.7rem', marginTop: '20px', color: '#FBA834' }}>
                         Feel free to connect with me if you have any opportunities or questions!
+                    </p>
+
+                    <p style={{ color: '#888', fontStyle: 'italic', fontSize: '16px' }}>
+                        This page has been viewed {views} times.
                     </p>
 
                 </div>
