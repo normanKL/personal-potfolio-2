@@ -91,7 +91,7 @@ function Home() {
 
  
         useEffect(() => {
-            fetch('https://counterapi.dev/api/v1/hit/norman-portfolio/home/up')
+            fetch('https://api.counterapi.dev/v1/norman-portfolio/home/up')
                 .then(res => {
                     if (!res.ok) throw new Error('Network response was not ok');
                     return res.json();
