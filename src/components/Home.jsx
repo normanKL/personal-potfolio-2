@@ -89,12 +89,17 @@ function Home() {
         ));
     }
 
-    useEffect(() => {
-        fetch('https://counterapi.dev/api/v1/hit/norman-portfolio/about-norman')
-            .then(res => res.json())
-            .then(data => setViews(data.count))
-            .catch(err => console.error('Failed to fetch view count', err));
-    }, []);
+ 
+        useEffect(() => {
+            fetch('https://counterapi.dev/api/v1/hit/norman-portfolio/home')
+                .then(res => {
+                    if (!res.ok) throw new Error('Network response was not ok');
+                    return res.json();
+                })
+                .then(data => setViews(data.count))
+                .catch(err => console.error('CounterAPI error:', err));
+        }, []);
+
 
     return (
         <>
@@ -137,8 +142,8 @@ function Home() {
                         Feel free to connect with me if you have any opportunities or questions!
                     </p>
 
-                    <p style={{ color: '#888', fontStyle: 'italic', fontSize: '16px' }}>
-                        This page has been viewed {views} times.
+                    <p style={{ color: '#FBA834', fontStyle: 'italic' }}>
+                        {views !== null ? `This page has been viewed ${views} times.` : 'Loading view count...'}
                     </p>
 
                 </div>
@@ -154,4 +159,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Home;
