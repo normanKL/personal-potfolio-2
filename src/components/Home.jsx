@@ -144,9 +144,9 @@ function Home() {
 
                     <hr style={{ marginTop: '10px', width: '90%' }} />
 
-                    <p className='view-count' style={{ color: '#D3D3D3', fontStyle: 'italic', fontSize: '13px' }}>
+                    {/* <p className='view-count' style={{ color: '#D3D3D3', fontStyle: 'italic', fontSize: '13px' }}>
                         {views !== null ? `This page has been viewed ${views} times.` : 'Loading view count...'}
-                    </p>
+                    </p> */}
 
                 </div>
 
